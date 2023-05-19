@@ -95,7 +95,7 @@ body {
     background-color: black;
     border: 2px solid black;
     border-radius: 25px;
-    }
+}
 
 .yt {
     display: flex;
@@ -186,7 +186,7 @@ body {
         padding-left: 0px;
         border-radius: 25px;
         margin-bottom: 2000px;
-        
+
     }
 
     .yt {
@@ -194,7 +194,7 @@ body {
         flex-direction: column;
         align-items: center;
         padding-right: 5px;
-      
+
 
     }
 
@@ -275,36 +275,44 @@ body {
     display: inline-block;
     border: 5px solid grey;
     border-radius: 25px;
+    margin-left: 10px;
 
 }
-#heaven{
+
+#heaven {
     background-color: black;
     border: 2px solid black;
     border-radius: 25px;
     margin-bottom: 10px;
 }
-#split{
+
+#split {
     background-color: black;
-    border: 2px solid black;
-    border-radius: 25px;margin-bottom: 10px;
-}
-#bind{
-    background-color: black;
-    border: 2px solid black;
-    border-radius: 25px;
-    margin-bottom: 10px;}
-    #ascent{
-        background-color: black;
     border: 2px solid black;
     border-radius: 25px;
     margin-bottom: 10px;
-    }
+}
+
+#bind {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#ascent {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
 #heaven p {
     float: right;
     color: white;
     font-size: 18px;
-   padding-right: 25px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -313,7 +321,7 @@ body {
     color: white;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-right:105px;
+    padding-right: 105px;
 }
 
 #bind p {
@@ -329,15 +337,18 @@ body {
     color: white;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+
 }
-.agentes{
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.agentes {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.agentes h4{
+
+.agentes h4 {
     text-align: center;
 }
-.agentes p{
+
+.agentes p {
     text-align: center;
     padding: 50px;
 }
@@ -431,10 +442,11 @@ body {
 }
 
 #headag {
-    background-color: rgb(21, 21, 21);  
+    background-color: rgb(21, 21, 21);
     width: 3806px;
     height: 1870px;
-    padding: 10px; border: 2px solid black;
+    padding: 10px;
+    border: 2px solid black;
     border-radius: 25px;
 
 }
@@ -451,9 +463,12 @@ body {
 
 #jett {
     float: right;
-    background-color:black; 
-    border: 2px solid black;
-    border-radius: 25px;
+    background: rgba(71, 9, 9, 0.7);
+    box-shadow: 0 8px 32px 0 rgb(36, 5, 5);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
     height: max-content;
     margin: 20px;
@@ -461,38 +476,54 @@ body {
 
 #cypher {
     float: right;
-    background-color:black;
-    border: 2px solid black;
-    border-radius: 25px;
+    background: rgba(71, 9, 9, 0.7);
+     box-shadow: 0 8px 32px 0 rgb(36, 5, 5);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
-    height: max-content; margin: 20px;
+    height: max-content;
+    margin: 20px;
 }
 
 #viper {
     float: right;
-    background-color:black;
-    border: 2px solid black;
-    border-radius: 25px;
+    background: rgba(71, 9, 9, 0.7);
+     box-shadow: 0 8px 32px 0 rgb(36, 5, 5);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
-    height: max-content; margin: 20px;
+    height: max-content;
+    margin: 20px;
 }
 
 #kayo {
     float: right;
-    background-color:black;
-    border: 2px solid black;
-    border-radius: 25px;
+    background: rgba(71, 9, 9, 0.7);
+     box-shadow: 0 8px 32px 0 rgb(36, 5, 5);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
-    height: max-content; margin: 20px;
+    height: max-content;
+    margin: 20px;
 }
 
 #sage {
     float: right;
-    background-color:black;
-    border: 2px solid black;
-    border-radius: 25px;
+    background: rgba(71, 9, 9, 0.7);
+     box-shadow: 0 8px 32px 0 rgb(36, 5, 5);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
-    height: max-content; margin: 20px;
+    height: max-content;
+    margin: 20px;
 }
 
 #navag {
@@ -507,7 +538,7 @@ body {
     border: 2px solid black;
     border-radius: 25px;
     width: 700px;
-  
+
 }
 
 #bodyag {
@@ -529,14 +560,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 .roles p {
     color: white;
     font-size: 40px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
 }
 
@@ -548,7 +579,8 @@ body {
     align-items: center;
     border: 2px solid black;
     border-radius: 25px;
-    background-color: black;font-family: 'Akira Font';
+    background-color: black;
+    font-family: 'Akira Font';
 }
 
 .roles div img {
@@ -586,28 +618,32 @@ body {
         float: right;
         border: 2px solid black;
         width: 70px;
-        height: 150px; margin: 0px;
+        height: 150px;
+        margin: 0px;
     }
 
     #viper {
         float: right;
         border: 2px solid black;
         width: 70px;
-        height: 150px; margin: 0px;
+        height: 150px;
+        margin: 0px;
     }
 
     #kayo {
         float: left;
         border: 2px solid black;
         width: 70px;
-        height: 150px; margin: 0px;
+        height: 150px;
+        margin: 0px;
     }
 
     #sage {
         float: right;
         border: 2px solid black;
         width: 70px;
-        height: 150px; margin: 0px;
+        height: 150px;
+        margin: 0px;
     }
 
 
@@ -665,7 +701,7 @@ body {
 #bodarm {
     margin: 0;
     padding: 0;
-    background-color: rgb(21, 21, 21); 
+    background-color: rgb(21, 21, 21);
     margin: 0;
     padding: 0;
     color: #fff;
@@ -677,7 +713,7 @@ body {
     grid-template-columns: auto auto auto auto;
     width: 97.8%;
     margin: 0 auto;
-    background-color: rgb(21, 21, 21); 
+    background-color: rgb(21, 21, 21);
     padding: 20px;
     border: 1px solid black;
     border-radius: 25px;
@@ -685,7 +721,7 @@ body {
 }
 
 .wrapper {
-    background-color: black; 
+    background-color: black;
     border: 4px solid black;
     border-radius: 25px;
     float: left;
@@ -792,6 +828,7 @@ body {
 
 #headglo p {
     font-size: 30px;
+    color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -800,8 +837,8 @@ body {
 }
 
 #bodglo {
-    background-color: rgb(21, 21, 21);  
-    color: white;
+    background-color: rgb(21, 21, 21);
+    color: whitesmoke;
     width: 100%;
     height: 120%;
     padding-left: 5px;
@@ -814,76 +851,157 @@ body {
 }
 
 .def {
-   padding-left:20px ;
+    padding-left: 20px;
     padding-bottom: 20px;
 }
-#eco{
+
+#eco {
     background-color: black;
     border: 2px solid black;
     border-radius: 25px;
     margin: 10px;
 }
-#retake{
+
+#retake {
     background-color: black;
     border: 2px solid black;
-    border-radius: 25px;margin: 10px;
+    border-radius: 25px;
+    margin: 10px;
 }
-#rush{
+
+#rush {
     background-color: black;
     border: 2px solid black;
-    border-radius: 25px;margin: 10px;
+    border-radius: 25px;
+    margin: 10px;
 }
-#defusando{
+
+#defusando {
     background-color: black;
     border: 2px solid black;
-    border-radius: 25px;margin: 10px;
+    border-radius: 25px;
+    margin: 10px;
 }
-#pekea{
+
+#pekea {
     background-color: black;
     border: 2px solid black;
-    border-radius: 25px;margin: 10px;
+    border-radius: 25px;
+    margin: 10px;
 }
-#corta{
+
+#corta {
     background-color: black;
     border: 2px solid black;
-    border-radius: 25px;margin: 10px;
+    border-radius: 25px;
+    margin: 10px;
 }
-#wallbang{
+
+#wallbang {
     background-color: black;
     border: 2px solid black;
-    border-radius: 25px;margin: 10px;
+    border-radius: 25px;
+    margin: 10px;
 }
 
 /* GLOSARIO RESPONSIVE*/
 @media (max-width:762px) {
-   
-    
+
+
     #headglo h1 {
         font-family: 'valorant font';
         font-size: 40px;
         text-align: center;
         padding-top: 50px;
     }
-    
+
     #headglo p {
         font-size: 15px;
-      
+
     }
-    
+
     #bodglo {
-        background-color: rgb(21, 21, 21);  
+        background-color: rgb(21, 21, 21);
         color: white;
         width: 100%;
         height: 150%;
         padding-left: 5px;
         padding-top: 40px;
         padding-bottom: 50px;
-    
+
     }
-    
+
     #bodglo h3 {
         text-align: center;
     }
+
+
+}
+#head{
     
+    background-color: black;
+}
+#head img{
+    display: inline;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 100px;
+}
+#head h1{
+    color: #d20c0c;
+    text-align: center;
+    font-size: 100px;
+}
+#body{
+    color: white;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#bio{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+#rol{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+#hab{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+#Q{
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 25px;
+    margin: 10px;
+}
+#E{
+   
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 25px;
+    margin: 10px;
+}
+#C{
     
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 25px;
+    margin: 10px;
+}
+#X{
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 25px;
+    margin: 10px;
+}
+#tr{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
