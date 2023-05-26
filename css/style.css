@@ -469,18 +469,18 @@ body {
 
 #headag {
     background-color: rgb(21, 21, 21);
-    width: 3806px;
-    height: 1870px;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 25px;
+    width: 1903px;
+    height: 935px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 12,5px;
 
 }
 
 #headag h1 {
     color: hwb(0 5% 18%);
     font-family: 'valorant font';
-    font-size: 200px;
+    font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -497,7 +497,8 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
     height: max-content;
-    margin: 20px;
+    margin: 10px;
+    padding: 0px;
 }
 
 #cypher {
@@ -510,7 +511,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
     height: max-content;
-    margin: 20px;
+    margin: 10px;
 }
 
 #viper {
@@ -523,7 +524,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
     height: max-content;
-    margin: 20px;
+    margin: 10px;
 }
 
 #kayo {
@@ -536,7 +537,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
     height: max-content;
-    margin: 20px;
+    margin: 10px;
 }
 
 #sage {
@@ -549,7 +550,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: max-content;
     height: max-content;
-    margin: 20px;
+    margin: 10px;
 }
 
 #navag {
@@ -563,17 +564,19 @@ body {
     background-color: rgb(15, 15, 15);
     border: 2px solid black;
     border-radius: 25px;
-    width: 700px;
+    width: 330px;
+    height: 500px;
 
 }
 
 #bodyag {
     background-color: rgb(15, 15, 15);
+    padding-bottom: 20px;
 }
 
 #agentes h1 {
     color: white;
-    font-size: 150px;
+    font-size: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -582,7 +585,7 @@ body {
 
 #agentes article div p {
     color: white;
-    font-size: 60px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -592,14 +595,14 @@ body {
 
 .roles p {
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
 }
 
 .roles h3 {
     color: white;
-    font-size: 50px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -635,43 +638,70 @@ body {
     #jett {
         float: left;
         border: 2px solid black;
+        width: 75px;
+        height: 155px;
+        margin: 0px;
+    }
+    #jett img{
         width: 70px;
         height: 150px;
-        margin: 0px;
     }
 
     #cypher {
         float: right;
         border: 2px solid black;
+        width: 75px;
+        height: 155px;
+        margin: 0px;
+    }
+    #cypher img {
         width: 70px;
         height: 150px;
-        margin: 0px;
     }
 
     #viper {
         float: right;
         border: 2px solid black;
-        width: 70px;
-        height: 150px;
+        width: 75px;
+        height: 155px;
         margin: 0px;
     }
-
+    #viper img {
+        width: 70px;
+        height: 150px;
+    }
     #kayo {
         float: left;
         border: 2px solid black;
-        width: 70px;
-        height: 150px;
+        width: 75px;
+        height: 155px;
         margin: 0px;
+    }
+    #kayo img {
+        width: 70px;
+        height: 150px;  
     }
 
     #sage {
         float: right;
         border: 2px solid black;
-        width: 70px;
-        height: 150px;
+        width: 75px;
+        height: 155px;
         margin: 0px;
     }
-
+    #sage img {
+        width: 70px;
+        height: 150px;
+    }
+    #navag img:hover {
+        cursor: crosshair;
+        background-color: rgb(15, 15, 15);
+        border: 2px solid black;
+        border-radius: 25px;
+        width: 70px;
+        height: 150px;
+    
+    }
 
     #agentes h1 {
         font-size: 0px;
