@@ -105,14 +105,14 @@ body {
 }
 
 
-#piex {
+footer {
     background-color: black;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
-#piex h5 {
+footer h5 {
     color: bisque;
     text-align: center;
     padding: 15px;
@@ -425,7 +425,7 @@ body {
 }
 
 /*MAPAS RESPONSIVE*/
-@media (max-width:812px) {
+@media (max-width:8200px) {
     #headermap {
         background-color: black;
         padding: 80px;
@@ -529,11 +529,10 @@ body {
 
 #headag {
     background-color: rgb(21, 21, 21);
-    width: 1903px;
-    height: 935px;
     padding: 5px;
     border: 1px solid black;
-    border-radius: 12, 5px;
+    border-radius:5px;
+    padding-bottom: 150px;
 
 }
 
@@ -911,12 +910,13 @@ body {
     {
 
     .agentes {
-        color: beige;
+        color: white
     }
 
     #headag {
-        width: 425px;
-        height: 350px;
+        width: 450px;
+        height: 500px;
+        background-color: white;
     }
 
     #headag h1 {
@@ -1110,9 +1110,9 @@ body {
 
 
     #bodyag {
-        background-color: rgb(121, 25, 25);
-        width: 425px;
-        padding-bottom: 200px;
+background-color: black;
+        width: 4205px;
+        padding-bottom: 2000px;
     }
 
     #agentes h1 {
@@ -1242,7 +1242,7 @@ body {
     font-size: 1rem;
     text-align: center;
     margin-top: 20px;
-    transition: margin-top 0.4s;
+    transition:  0.4s;
 }
 
 .img:hover .content p {
@@ -1470,7 +1470,7 @@ body {
     background-color: rgb(15, 15, 15);
     text-align: center;
     padding-top: 20px;
-    height: 2450px;
+    height: 3000px;
 
 }
 
@@ -1728,7 +1728,7 @@ body {
 
     }
 
-    #piex {
+    #footer {
         width: 425px;
     }
 
