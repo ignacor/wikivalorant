@@ -300,17 +300,18 @@ footer h5 {
     flex-direction: center;
 }
 
-#navmap {
+#navmap a {
     display: inline;
     justify-content: center;
-    flex-direction: row;
+  flex-direction: row;
     width: 300px;
     height: 230px;
-    padding-left: 20px;
+    padding-left: 101px;
 }
 
-#navmap img {
-    width: 300px;
+#navmap a img {
+    
+    width: 400px;
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
@@ -319,9 +320,9 @@ footer h5 {
     border-radius: 25px;
 }
 
-#navmap img:hover {
+#navmap a img:hover {
     cursor: crosshair;
-    width: 500px;
+    width: 400px;
     opacity: 1;
     filter: contrast(130%);
 
@@ -334,7 +335,7 @@ footer h5 {
 }
 
 #mapas h2 {
-    color: beige;
+    color: white;
     font-family: 'Empire Font';
     display: flex;
     justify-content: center;
@@ -380,16 +381,16 @@ footer h5 {
 
 #heaven p {
     float: right;
-    color: beige;
+    color: white;
     font-size: 18px;
-    padding-right: 25px;
+    padding-right: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 #split p {
     float: right;
-    color: beige;
+    color: white;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-right: 105px;
@@ -398,14 +399,14 @@ footer h5 {
 #bind p {
     float: right;
     font-size: 18px;
-    color: beige;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-right: 45px;
 }
 
 #ascent p {
     float: right;
-    color: beige;
+    color: white;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -425,100 +426,82 @@ footer h5 {
 }
 
 /*MAPAS RESPONSIVE*/
-@media (max-width:8200px) {
+@media (max-width:812px) {
     #headermap {
-        background-color: black;
-        padding: 80px;
+        padding: 20px;
     }
-
-    #navmap {
-        display: inline;
-        justify-content: center;
-        flex-direction: row;
-        width: 300px;
-        height: 230px;
-        padding-left: 20px;
-    }
-
+    
     #headermap h1 {
-        text-align: center;
-        font-size: 60;
+        font-size: 50px;
     }
-
-    #navmap img {
-        width: 150px;
+    
+    #navmap a {
+        padding-left: 0px;
     }
-
-    #navmap img:hover {
+    
+    #navmap a img {
         width: 200px;
     }
-
+    
+    #navmap a img:hover {
+        width: 200px;
+    }
+    
     #mapas {
-        display: block;
-        padding: 10px;
+        padding: 5px;
     }
-
-    #mapas h2 {
-        display: block;
-        color: beige;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+    
+    
+    
     #mapas img {
-        display: block;
-        background-color: rgba(55, 54, 54, 0.577);
-        display: inline-block;
-        border: 5px solid rgba(55, 54, 54, 0.577);
-        border-radius: 25px;
+        border: 0px solid grey;
+        margin-left: 5px;
         width: 350px;
-        height: 210px;
-
+        height: 230px;
     }
-
+    
+   
+    
     #heaven p {
-        border: 5px solid rgba(55, 54, 54, 0.577);
-        border-radius: 25px;
-        float: right;
-        color: beige;
-        font-size: 20px;
-        margin: 3px;
+        font-size: 14px;
         text-align: center;
-        padding-right: 0px;
+        float: none;
+        display: block
+    
     }
-
+    
     #split p {
-        border: 5px solid rgba(55, 54, 54, 0.577);
-        border-radius: 25px;
-        float: right;
-        color: beige;
-        font-size: 20px;
+        font-size: 14px;
         text-align: center;
-        padding-right: 0px;
+        display: inline-block;
     }
-
+    
     #bind p {
-        border: 5px solid rgba(55, 54, 54, 0.577);
-        border-radius: 25px;
-        padding-right: 0px;
-        float: right;
-        font-size: 20px;
-        color: beige;
+        font-size: 14px;
         text-align: center;
+        float: none;display: block
     }
-
+    
     #ascent p {
-        border: 5px solid rgba(55, 54, 54, 0.577);
-        border-radius: 25px;
-        float: right;
-        color: beige;
-        font-size: 20px;
+        font-size: 14px;
         text-align: center;
-        padding-right: 0px;
+        float: none;display: block
+    
     }
-
-
+    
+    .agentes {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .agentes h4 {
+        text-align: center;
+    }
+    
+    .agentes p {
+        text-align: center;
+        padding: 50px;
+    }
+    
 }
 
 /*AGENTES ORDENADOR*/
@@ -908,247 +891,246 @@ footer h5 {
 /*AGENTES RESPONSIVE*/
 @media (max-width: 812px) 
     {
+#headag h1{
+    font-size: 50px;
+    height: 120px;
+}
+#navag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .agentes {
-        color: white
-    }
+#jettag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 2px;
+}
 
-    #headag {
-        width: 450px;
-        height: 500px;
-        background-color: white;
-    }
+#jettag img:first-child {
+    object-fit: cover;
+    width: 70px;
+    height: 90px;
+    
+}
 
-    #headag h1 {
-        font-size: 50px;
-        text-align: center;
-    }
+#jettag img:last-child {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    bottom: 70px;
+    left: 13px;
 
-    #navag {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+}
 
-    #jettag {
-        position: relative;
-        width: 70px;
-        height: 90px;
-        margin: 0px;
-    }
+#jettag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+}
 
-    #jettag img:first-child {
-        object-fit: cover;
-        width: 70px;
-        height: 90px;
-    }
-
-    #jettag img:last-child {
-        position: relative;
-        width: 30px;
-        height: 50px;
-        bottom: 70px;
-        left: 13px;
-
-    }
-
-    #jettag:hover {
-        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-    }
-
-    #jettag::before {
-        height: 30px;
-        width: 50px;
-    }
+#jettag::before {
+    height: 30px;
+    width: 50px;
+}
 
 
 
-    #jettag:hover img:last-child {
-        transform: translatey(0%)
-    }
+#jettag:hover img:last-child {
+    transform: translatey(0%)
+}
 
 
-    #kayoag {
-        position: relative;
-        width: 30px;
-        height: 45px;
-        margin: 0px;
-    }
+#kayoag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 2px;
+}
 
-    #kayoag img:first-child {
-        object-fit: cover;
-        width: 70px;
-        height: 90px;
-    }
+#kayoag img:first-child {
+    object-fit: cover;
+    width: 70px;
+    height: 90px;
+}
 
-    #kayoag img:last-child {
-        position: relative;
-        width: 70px;
-        height: 90px;
-        bottom: 70px;
-        left: 13px;
+#kayoag img:last-child {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    bottom: 70px;
+    left: 13px;
 
-    }
+}
 
-    #kayoag:hover {
-        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-    }
+#kayoag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+}
 
-    #kayoag::before {
-        height: 30px;
-        width: 50px;
-    }
-
-
-
-    #kayoag:hover img:last-child {
-        transform: translatey(0%)
-    }
-
-
-    #viperag {
-        position: relative;
-        width: 70px;
-        height: 90px;
-        margin: 0px;
-    }
-
-    #viperag img:first-child {
-        object-fit: cover;
-        width: 70px;
-        height: 90px;
-    }
-
-    #viperag img:last-child {
-        position: relative;
-        width: 30px;
-        height: 50px;
-        bottom: 70px;
-        left: 13px;
-
-    }
-
-    #viperag:hover {
-        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-    }
-
-    #viperag::before {
-        height: 30px;
-        width: 50px;
-    }
+#kayoag::before {
+    height: 30px;
+    width: 50px;
+}
 
 
 
-    #viperag:hover img:last-child {
-        transform: translatey(0%)
-    }
+#kayoag:hover img:last-child {
+    transform: translatey(0%)
+}
 
 
-    #sageag {
-        position: relative;
-        width: 70px;
-        height: 90px;
-        margin: 0px;
-    }
+#viperag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 2px;
+}
 
-    #sageag img:first-child {
-        object-fit: cover;
-        width: 70px;
-        height: 90px;
-    }
+#viperag img:first-child {
+    object-fit: cover;
+    width: 70px;
+    height: 90px;
+}
 
-    #sageag img:last-child {
-        position: relative;
-        width: 30px;
-        height: 50px;
-        bottom: 70px;
-        left: 13px;
+#viperag img:last-child {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    bottom: 70px;
+    left: 13px;
 
-    }
-    #sageag:hover {
-        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-    }
-    #sageag::before {
-        height: 30px;
-        width: 50px;
-    }
-    #sageag:hover img:last-child {
-        transform: translatey(0%)
-    }
+}
 
+#viperag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+}
 
-    #cypherag {
-        position: relative;
-        width: 70px;
-        height: 90px;
-        margin: 0px;
-    }
-
-    #cypherag img:first-child {
-        width: 70px;
-        height: 90px;
-    }
-
-    #cypherag img:last-child {
-        position: relative;
-        width: 30px;
-        height: 50px;
-        bottom: 70px;
-        left: 13px;
-
-    }
-    #cypherag:hover {
-        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-    }
-    #cypherag::before {
-        height: 30px;
-        width: 50px;
-    }
-    #cypherag:hover img:last-child {
-        transform: translatey(0%)
-    }
+#viperag::before {
+    height: 30px;
+    width: 50px;
+}
 
 
-    #bodyag {
-background-color: black;
-        width: 4205px;
-        padding-bottom: 2000px;
-    }
 
-    #agentes h1 {
-        font-size: 25px;
-    }
+#viperag:hover img:last-child {
+    transform: translatey(0%)
+}
 
-    #agentes article div p {
-        font-size: 17px;
-        text-align: center;
-    }
-    .roles p {
-        font-size: 15px;
-        text-align: center;
-    }
-    .roles div img {
-        display: none;
-    }
 
-    #controlador p {
-        padding-right: 0px;
+#sageag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 2px;
+}
 
-    }
+#sageag img:first-child {
+    object-fit: cover;
+    width: 70px;
+    height: 90px;
+}
 
-    #duelista p {
-        padding-right: 0px;
+#sageag img:last-child {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    bottom: 70px;
+    left: 13px;
 
-    }
+}
+#sageag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+}
+#sageag::before {
+    height: 30px;
+    width: 50px;
+}
+#sageag:hover img:last-child {
+    transform: translatey(0%)
+}
 
-    #sentinela p {
-        padding-right: 0px;
 
-    }
+#cypherag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 5px;
+}
 
-    #iniciador p {
-        padding-right: 0px;
-    }
+#cypherag img:first-child {
+    width: 70px;
+    height: 90px;
+}
+
+#cypherag img:last-child {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    bottom: 70px;
+    left: 13px;
+
+}
+#cypherag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+}
+#cypherag::before {
+    height: 30px;
+    width: 50px;
+}
+#cypherag:hover img:last-child {
+    transform: translatey(0%)
+}
+  
+#bodyag {
+    background-color: rgb(15, 15, 15);
+    padding-bottom: 20px;
+    height: 1300px;
+}
+
+#agentes h1 {
+    font-size: 25px;
+}
+
+#agentes article div p {
+    font-size: 15px;
+text-align: center;
+}
+
+
+.roles p {
+    color: beige;
+    font-size: 15px;
+    float: right;
+    text-align: center;
+
+}
+
+.roles h3 {
+    color: beige;
+    font-size: 15px;
+}
+
+.roles div img {
+    border: 5px solid black;
+    width: 60px;
+    height: 50px;
+}
+
+#controlador p {
+    padding-right: 0px;
+}
+
+#duelista p {
+    padding-right: 0px;
+}
+
+#sentinela p {
+    padding-right: 0px;
+}
+
+#iniciador p {
+    padding-right: 0px;
+}
+
 
    
 }
@@ -1432,10 +1414,10 @@ background-color: black;
         background-color: rgb(21, 21, 21);
         color: beige;
         width: 100%;
-        height: 150%;
+        height: 1800px;
         padding-left: 5px;
         padding-top: 40px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
 
     }
 
@@ -1641,12 +1623,12 @@ background-color: black;
     #head h1 {
         color: #d20c0c;
         text-align: center;
-        font-size: 100px;
+        font-size: 50px;
     }
-
-
-
-
+    #body {
+        height: 2600px;
+    
+    }
     #Q video {
         height: 250px;
         width: 300px;
@@ -1673,9 +1655,9 @@ background-color: black;
     }
 
     .slider-frame {
-        width: 420px;
-        height: 150px;
-        margin: 0px 0px 0px;
+        width: 370px;
+    height: 150;
+    margin: 0 0 0;
     }
 
     .slider-frame ul {
