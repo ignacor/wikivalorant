@@ -1,3 +1,916 @@
+* {
+  margin: 0;
+}
 
+#headix {
+  background-image: url(../imagenes/general/banner2.jpg);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+#headix h1 {
+  color: #d20c0c;
+  font-family: "valorant font";
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#headix article {
+  padding: 30px;
+  padding-right: 50px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+}
+#headix a {
+  color: beige;
+  font-family: "valorant font";
+  font-size: 50px;
+  transition: 0.5s ease;
+}
+#headix nav a:hover {
+  color: rgb(191, 14, 14);
+  letter-spacing: 20px;
+}
+
+#bod {
+  background-color: rgb(15, 15, 15);
+  width: 100%;
+  height: 120%;
+}
+#bod #parche {
+  color: beige;
+  font-family: "Machine Font";
+  background-color: black;
+  border: 2px solid black;
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 19.7px;
+  border-radius: 25px;
+  margin: 13px;
+}
+#bod #discord {
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 52px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 13px;
+  height: 598px;
+}
+#bod .trucos {
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 28px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+#bod .trucos h2 {
+  font-family: "Railway Font";
+  color: beige;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bod .yt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 5px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+footer h5 {
+  color: bisque;
+  text-align: center;
+  padding: 15px;
+}
+footer #social {
+  text-align: center;
+}
+footer #social a {
+  font-size: 30px;
+  margin: 20px;
+  color: rgb(191, 14, 14);
+  text-decoration: none;
+}
+footer #social a:hover {
+  background-color: rgb(15, 15, 15);
+  padding: 15px;
+  border: 2px solid rgb(15, 15, 15);
+  border-radius: 25px;
+}
+footer #pag {
+  text-align: center;
+  margin-top: 20px;
+}
+footer #pag a {
+  color: bisque;
+  padding: 20px;
+}
+
+#headermap {
+  background-color: black;
+  padding: 190px;
+}
+#headermap h1 {
+  color: #d20c0c;
+  font-family: "valorant font";
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+}
+#headermap #navmap a {
+  display: inline;
+  justify-content: center;
+  flex-direction: row;
+  width: 300px;
+  height: 230px;
+  padding-left: 101px;
+}
+#headermap #navmap a img {
+  width: 400px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+#headermap a img:hover {
+  cursor: crosshair;
+  width: 400px;
+  opacity: 1;
+  filter: contrast(130%);
+}
+
+#mapas {
+  background-color: rgb(15, 15, 15);
+  padding: 10px;
+  font-family: "Machine Font";
+}
+#mapas h2 {
+  color: white;
+  font-family: "Empire Font";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mapas img {
+  background-color: rgba(55, 54, 54, 0.577);
+  display: inline-block;
+  border: 5px solid grey;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+#mapas #heaven {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+#mapas #heaven p {
+  float: right;
+  color: white;
+  font-size: 18px;
+  padding-right: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#mapas #split {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+#mapas #split p {
+  float: right;
+  color: white;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-right: 105px;
+}
+#mapas #bind {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+#mapas #bind p {
+  float: right;
+  font-size: 18px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-right: 45px;
+}
+#mapas #ascent {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+#mapas #ascent p {
+  float: right;
+  color: white;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#mapas .agentes {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#mapas .agentes h4 {
+  text-align: center;
+  color: white;
+}
+#mapas .agentes ul {
+  color: white;
+  padding: 50px;
+}
+
+#headag {
+  background-color: rgb(21, 21, 21);
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-bottom: 150px;
+}
+#headag h1 {
+  color: hwb(0 5% 18%);
+  font-family: "valorant font";
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#headag #navag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#headag #navag #jettag {
+  position: relative;
+  width: 330px;
+  height: 420px;
+  transition: all 0.3s ease;
+  margin: 20px;
+}
+#headag #navag #jettag img:first-child {
+  box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 25px;
+  border-color: rgb(58, 48, 48);
+}
+#headag #navag #jettag img:last-child {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(55%);
+  transition: 0.5s ease;
+  opacity: 0;
+}
+#headag #navag #jettag:hover {
+  transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+#headag #navag #jettag::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+#headag #navag #jettag:hover::before {
+  opacity: 1;
+}
+#headag #navag #jettag:hover img:last-child {
+  opacity: 1;
+  transform: translatey(10%);
+}
+#headag #navag #kayoag {
+  position: relative;
+  width: 330px;
+  height: 420px;
+  transition: all 0.3s ease;
+  margin: 20px;
+}
+#headag #navag #kayoag img:first-child {
+  box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 25px;
+  border-color: rgb(58, 48, 48);
+}
+#headag #navag #kayoag img:last-child {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(55%);
+  transition: 0.5s ease;
+  opacity: 0;
+}
+#headag #navag #kayoag:hover {
+  transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+#headag #navag #kayoag::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+#headag #navag #kayoag:hover::before {
+  opacity: 1;
+}
+#headag #navag #kayoag:hover img:last-child {
+  opacity: 1;
+  transform: translatey(10%);
+}
+#headag #navag #viperag {
+  position: relative;
+  width: 330px;
+  height: 420px;
+  transition: all 0.3s ease;
+  margin: 20px;
+}
+#headag #navag #viperag img:first-child {
+  box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 25px;
+  border-color: rgb(58, 48, 48);
+}
+#headag #navag #viperag img:last-child {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(55%);
+  transition: 0.5s ease;
+  opacity: 0;
+}
+#headag #navag #viperag:hover {
+  transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+#headag #navag #viperag::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+#headag #navag #viperag:hover::before {
+  opacity: 1;
+}
+#headag #navag #viperag:hover img:last-child {
+  opacity: 1;
+  transform: translatey(10%);
+}
+#headag #navag #sageag {
+  position: relative;
+  width: 330px;
+  height: 420px;
+  transition: all 0.3s ease;
+  margin: 20px;
+}
+#headag #navag #sageag img:first-child {
+  box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 25px;
+  border-color: rgb(58, 48, 48);
+}
+#headag #navag #sageag img:last-child {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(55%);
+  transition: 0.5s ease;
+  opacity: 0;
+}
+#headag #navag #sageag:hover {
+  transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+#headag #navag #sageag::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+#headag #navag #sageag:hover::before {
+  opacity: 1;
+}
+#headag #navag #sageag:hover img:last-child {
+  opacity: 1;
+  transform: translatey(10%);
+}
+#headag #navag #cypherag {
+  position: relative;
+  width: 330px;
+  height: 420px;
+  transition: all 0.3s ease;
+  margin: 20px;
+}
+#headag #navag #cypherag img:first-child {
+  box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 25px;
+  border-color: rgb(58, 48, 48);
+}
+#headag #navag #cypherag img:last-child {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(55%);
+  transition: 0.5s ease;
+  opacity: 0;
+}
+#headag #navag #cypherag:hover {
+  transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+#headag #navag #cypherag::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+#headag #navag #cypherag:hover::before {
+  opacity: 1;
+}
+#headag #navag #cypherag:hover img:last-child {
+  opacity: 1;
+  transform: translatey(10%);
+}
+
+#bodyag {
+  background-color: rgb(15, 15, 15);
+  padding-bottom: 20px;
+}
+#bodyag h1 {
+  color: beige;
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Akira Font";
+}
+#bodyag h3 {
+  color: beige;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: black;
+  font-family: "Akira Font";
+}
+
+#agentes article div p {
+  color: beige;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.roles p {
+  color: beige;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  float: right;
+}
+.roles img {
+  display: inline-block;
+  border: 5px solid gray;
+  border-radius: 25px;
+  background-color: black;
+  margin: 1px;
+}
+
+.roles #controlador p {
+  padding-right: 230px;
+}
+.roles #duelista p {
+  padding-right: 120px;
+}
+.roles #sentinela p {
+  padding-right: 10px;
+}
+.roles #iniciador p {
+  padding-right: 120px;
+}
+
+#headars {
+  height: 700px;
+  background-color: black;
+  border: 5px solid black;
+}
+#headars h1 {
+  color: #d20c0c;
+  font-family: "valorant font";
+  font-size: 50px;
+  text-align: center;
+  padding-top: 150px;
+  letter-spacing: 20px;
+}
+#headars h3 {
+  color: beige;
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#bodarm {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(21, 21, 21);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Arial;
+}
+#bodarm #grid-layout {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 97.8%;
+  margin: 0 auto;
+  background-color: rgb(21, 21, 21);
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+#bodarm #grid-layout .wrapper {
+  background-color: black;
+  border: 4px solid black;
+  border-radius: 25px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 25px;
+  margin: 10px;
+}
+#bodarm #grid-layout .wrapper .content {
+  overflow: hidden;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+#bodarm #grid-layout .wrapper .content h1 {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: -75px;
+  margin-top: 15px;
+}
+#bodarm #grid-layout .wrapper .content p {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.4s;
+}
+#bodarm #grid-layout .wrapper .img:hover:hover .content {
+  opacity: 1;
+}
+#bodarm #grid-layout .wrapper .img:hover .content h1 {
+  margin-left: 115px;
+}
+#bodarm #grid-layout .wrapper .img:hover .content p {
+  margin-top: 75px;
+}
+
+#headglo {
+  background-color: black;
+  border: 5px solid black;
+  color: gray;
+  padding-bottom: 70px;
+  border: 2px solid black;
+}
+#headglo h1 {
+  font-family: "valorant font";
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+  padding-top: 20px;
+}
+#headglo p {
+  font-size: 30px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#bodglo {
+  background-color: rgb(21, 21, 21);
+  color: whitesmoke;
+  width: 100%;
+  height: 1400px;
+  padding-left: 5px;
+  padding-top: 40px;
+}
+#bodglo h3 {
+  text-align: center;
+}
+#bodglo .def {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+#bodglo #eco {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #retake {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #rush {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #defusando {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #pekea {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #corta {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #wallbang {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #main {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #filleo {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #forzar {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+#bodglo #baitear {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+#head {
+  background-color: black;
+}
+#head h1 {
+  color: #d20c0c;
+  text-align: center;
+  font-size: 100px;
+  font-family: "valorant font";
+}
+#head img {
+  display: inline;
+  justify-content: center;
+  flex-direction: row;
+  padding-left: 100px;
+}
+#head .slider-frame {
+  width: 1280px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+  border: 2px solid red;
+  border-radius: 25px;
+}
+#head .slider-frame ul {
+  display: flex;
+  padding-left: 260px;
+  width: 400%;
+  animation: slide 16s infinite alternate ease-in-out;
+}
+#head .slider-frame ul li {
+  width: 50%;
+  list-style: none;
+}
+#head .slider-frame ul li img {
+  width: 50%;
+}
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+#body {
+  color: beige;
+  background-color: rgb(15, 15, 15);
+  text-align: center;
+  padding-top: 20px;
+  height: 2400px;
+}
+#body #bio {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+#body #bio h2 {
+  font-family: "valorant font";
+}
+#body #bio p {
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 15px;
+}
+#body #rol {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+#body #rol h2 {
+  font-family: "valorant font";
+}
+#body #rol p {
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 15px;
+}
+#body #hab {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+#body #hab h2 {
+  font-family: "valorant font";
+}
+#body #hab p {
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 15px;
+}
+#body #Q {
+  border: 2px solid rgb(15, 15, 15);
+  border-radius: 25px;
+  margin: 10px;
+}
+#body #Q h3 {
+  font-family: "valorant font";
+}
+#body #Q p {
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 15px;
+}
+#body #E {
+  border: 2px solid rgb(15, 15, 15);
+  border-radius: 25px;
+  margin: 10px;
+}
+#body #E h3 {
+  font-family: "valorant font";
+}
+#body #E p {
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 15px;
+}
+#body #C {
+  border: 2px solid rgb(15, 15, 15);
+  border-radius: 25px;
+  margin: 10px;
+}
+#body #C h3 {
+  font-family: "valorant font";
+}
+#body #C p {
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 15px;
+}
+#body #X {
+  border: 2px solid rgb(15, 15, 15);
+  border-radius: 25px;
+  margin: 10px;
+}
+#body #X h3 {
+  font-family: "valorant font";
+}
+#body #X p {
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 15px;
+}
+#body #tr {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+#body #tr h2 {
+  font-family: "valorant font";
+}
 
 /*# sourceMappingURL=styles.css.map */
