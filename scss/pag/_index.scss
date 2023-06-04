@@ -131,14 +131,137 @@ footer{
     }
 
     }
-
-
-
-
-
-
-
-
-
-
-
+    @media (max-width:812px) {
+        #headix {
+            background-image: url(../imagenes/general/banner2.jpg);
+            width: 100%;
+            height: 100%;
+        }
+    
+        #headix h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+    
+        #headix article {
+            padding: 0px;
+            padding-right: 50px;
+            display: block;
+            margin: 5px;
+        }
+    
+        #headix a {
+            font-size: 30px;
+        }
+    
+        #headix nav a:hover {
+            color: rgb(191, 14, 14);
+        }
+    
+        #bod {
+            background-color: rgb(15, 15, 15);
+            width: auto;
+            height: 3260px;
+            margin: 0;
+            padding-top: 20px;
+        }
+    
+        #parche {
+            display: block;
+        }
+    
+        #discord {
+            display: flex;
+            float: left;
+            padding: 10px;
+            border-radius: 25px;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+    
+        #discord iframe {
+            display: flex;
+            float: left;
+            width: 330px;
+            height: 350px;
+    
+        }
+    
+        .trucos h2 {
+            display: block;
+            font-size: 30px;
+            text-align: center;
+    
+        }
+    
+        .trucos {
+            display: block;
+            margin-top: 430;
+            padding-right: 0px;
+            padding-left: 0px;
+            border-radius: 25px;
+            margin-bottom: 2000px;
+    
+        }
+    
+        .yt {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-right: 5px;
+    
+    
+        }
+    
+        .yt iframe {
+            width: 320px;
+            height: 400px;
+        }
+    
+        footer{
+            background-color: black;
+            text-align: center;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            width: 375px;
+        }
+        
+        footer h5 {
+            color: bisque;
+            text-align: center;
+            padding: 5px;
+        }
+        
+        #social {
+            text-align: center;
+        }
+        
+        #social a {
+            font-size: 30px;
+            margin: 10px;
+            color: rgb(191, 14, 14);
+            text-decoration: none;
+        
+        }
+        
+        #social a:hover {
+            background-color: rgb(15, 15, 15);
+            padding: 15px;
+            border: 2px solid rgb(15, 15, 15);
+            border-radius: 25px;
+        }
+        
+        #pag {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        #pag a {
+            color: bisque;
+            padding: 30px;
+        
+        }
+    
+    
+    }
+    

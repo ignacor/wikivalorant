@@ -127,6 +127,111 @@ footer #pag a {
   padding: 20px;
 }
 
+@media (max-width: 812px) {
+  #headix {
+    background-image: url(../imagenes/general/banner2.jpg);
+    width: 100%;
+    height: 100%;
+  }
+  #headix h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  #headix article {
+    padding: 0px;
+    padding-right: 50px;
+    display: block;
+    margin: 5px;
+  }
+  #headix a {
+    font-size: 30px;
+  }
+  #headix nav a:hover {
+    color: rgb(191, 14, 14);
+  }
+  #bod {
+    background-color: rgb(15, 15, 15);
+    width: auto;
+    height: 3260px;
+    margin: 0;
+    padding-top: 20px;
+  }
+  #parche {
+    display: block;
+  }
+  #discord {
+    display: flex;
+    float: left;
+    padding: 10px;
+    border-radius: 25px;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  #discord iframe {
+    display: flex;
+    float: left;
+    width: 330px;
+    height: 350px;
+  }
+  .trucos h2 {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+  }
+  .trucos {
+    display: block;
+    margin-top: 430;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 25px;
+    margin-bottom: 2000px;
+  }
+  .yt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5px;
+  }
+  .yt iframe {
+    width: 320px;
+    height: 400px;
+  }
+  footer {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 375px;
+  }
+  footer h5 {
+    color: bisque;
+    text-align: center;
+    padding: 5px;
+  }
+  #social {
+    text-align: center;
+  }
+  #social a {
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(191, 14, 14);
+    text-decoration: none;
+  }
+  #social a:hover {
+    background-color: rgb(15, 15, 15);
+    padding: 15px;
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 25px;
+  }
+  #pag {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #pag a {
+    color: bisque;
+    padding: 30px;
+  }
+}
 #headermap {
   background-color: black;
   padding: 190px;
@@ -245,6 +350,65 @@ footer #pag a {
   padding: 50px;
 }
 
+@media (max-width: 812px) {
+  #headermap {
+    padding: 20px;
+  }
+  #headermap h1 {
+    font-size: 50px;
+  }
+  #navmap a {
+    padding-left: 0px;
+  }
+  #navmap a img {
+    width: 200px;
+  }
+  #navmap a img:hover {
+    width: 200px;
+  }
+  #mapas {
+    padding: 5px;
+  }
+  #mapas img {
+    border: 0px solid grey;
+    margin-left: 5px;
+    width: 350px;
+    height: 230px;
+  }
+  #heaven p {
+    font-size: 14px;
+    text-align: center;
+    float: none;
+    display: block;
+  }
+  #split p {
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+  }
+  #bind p {
+    font-size: 14px;
+    text-align: center;
+    float: none;
+    display: block;
+  }
+  #ascent p {
+    font-size: 14px;
+    text-align: center;
+    float: none;
+    display: block;
+  }
+  .agentes {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .agentes h4 {
+    text-align: center;
+  }
+  .agentes p {
+    text-align: center;
+    padding: 50px;
+  }
+}
 #headag {
   background-color: rgb(21, 21, 21);
   padding: 5px;
@@ -552,6 +716,195 @@ footer #pag a {
   padding-right: 120px;
 }
 
+@media (max-width: 812px) {
+  #headag h1 {
+    font-size: 50px;
+    height: 120px;
+  }
+  #navag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #jettag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 2px;
+  }
+  #jettag img:first-child {
+    object-fit: cover;
+    width: 70px;
+    height: 90px;
+  }
+  #jettag img:last-child {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    bottom: 70px;
+    left: 13px;
+  }
+  #jettag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+  }
+  #jettag::before {
+    height: 30px;
+    width: 50px;
+  }
+  #jettag:hover img:last-child {
+    transform: translatey(0%);
+  }
+  #kayoag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 2px;
+  }
+  #kayoag img:first-child {
+    object-fit: cover;
+    width: 70px;
+    height: 90px;
+  }
+  #kayoag img:last-child {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    bottom: 70px;
+    left: 13px;
+  }
+  #kayoag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+  }
+  #kayoag::before {
+    height: 30px;
+    width: 50px;
+  }
+  #kayoag:hover img:last-child {
+    transform: translatey(0%);
+  }
+  #viperag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 2px;
+  }
+  #viperag img:first-child {
+    object-fit: cover;
+    width: 70px;
+    height: 90px;
+  }
+  #viperag img:last-child {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    bottom: 70px;
+    left: 13px;
+  }
+  #viperag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+  }
+  #viperag::before {
+    height: 30px;
+    width: 50px;
+  }
+  #viperag:hover img:last-child {
+    transform: translatey(0%);
+  }
+  #sageag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 2px;
+  }
+  #sageag img:first-child {
+    object-fit: cover;
+    width: 70px;
+    height: 90px;
+  }
+  #sageag img:last-child {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    bottom: 70px;
+    left: 13px;
+  }
+  #sageag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+  }
+  #sageag::before {
+    height: 30px;
+    width: 50px;
+  }
+  #sageag:hover img:last-child {
+    transform: translatey(0%);
+  }
+  #cypherag {
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 5px;
+  }
+  #cypherag img:first-child {
+    width: 70px;
+    height: 90px;
+  }
+  #cypherag img:last-child {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    bottom: 70px;
+    left: 13px;
+  }
+  #cypherag:hover {
+    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+  }
+  #cypherag::before {
+    height: 30px;
+    width: 50px;
+  }
+  #cypherag:hover img:last-child {
+    transform: translatey(0%);
+  }
+  #bodyag {
+    background-color: rgb(15, 15, 15);
+    padding-bottom: 20px;
+    height: 1300px;
+  }
+  #agentes h1 {
+    font-size: 25px;
+  }
+  #agentes article div p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .roles p {
+    color: beige;
+    font-size: 15px;
+    float: right;
+    text-align: center;
+  }
+  .roles h3 {
+    color: beige;
+    font-size: 15px;
+  }
+  .roles div img {
+    border: 5px solid black;
+    width: 60px;
+    height: 50px;
+  }
+  #controlador p {
+    padding-right: 0px;
+  }
+  #duelista p {
+    padding-right: 0px;
+  }
+  #sentinela p {
+    padding-right: 0px;
+  }
+  #iniciador p {
+    padding-right: 0px;
+  }
+}
 #headars {
   height: 700px;
   background-color: black;
@@ -632,6 +985,35 @@ footer #pag a {
   margin-top: 75px;
 }
 
+@media (max-width: 762px) {
+  #headars {
+    height: 500px;
+    background-color: black;
+    border: 5px solid black;
+  }
+  #headars h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    letter-spacing: 20px;
+  }
+  #headars h3 {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  #bodarm {
+    margin: 0;
+    padding: 0;
+  }
+  #grid-layout {
+    grid-template-columns: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+  }
+  .wrapper {
+    padding: 1px;
+  }
+}
 #headglo {
   background-color: black;
   border: 5px solid black;
@@ -740,6 +1122,29 @@ footer #pag a {
   margin: 10px;
 }
 
+@media (max-width: 812px) {
+  #headglo h1 {
+    font-family: "valorant font";
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  #headglo p {
+    font-size: 15px;
+  }
+  #bodglo {
+    background-color: rgb(21, 21, 21);
+    color: beige;
+    width: 100%;
+    height: 1800px;
+    padding-left: 5px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  #bodglo h3 {
+    text-align: center;
+  }
+}
 #head {
   background-color: black;
 }
@@ -911,6 +1316,91 @@ footer #pag a {
 }
 #body #tr h2 {
   font-family: "valorant font";
+}
+
+@media (max-width: 812px) {
+  #head img {
+    display: inline;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 0px;
+    width: 170px;
+    height: 120px;
+  }
+  #head h1 {
+    color: #d20c0c;
+    text-align: center;
+    font-size: 50px;
+  }
+  #body {
+    height: 2600px;
+  }
+  #Q video {
+    height: 250px;
+    width: 300px;
+  }
+  #E video {
+    height: 250px;
+    width: 300px;
+  }
+  #C video {
+    height: 250px;
+    width: 300px;
+  }
+  #X video {
+    height: 250px;
+    width: 300px;
+  }
+  #tr iframe {
+    height: 250px;
+    width: 300px;
+  }
+  .slider-frame {
+    width: 370px;
+    height: 150;
+    margin: 0 0 0;
+  }
+  .slider-frame ul {
+    display: flex;
+    padding-left: 120px;
+    animation: slide 16s infinite alternate ease-in-out;
+  }
+  .slider-frame li {
+    width: 50%;
+    list-style: none;
+  }
+  .slider-frame img {
+    width: 50%;
+  }
+  @keyframes slide {
+    0% {
+      margin-left: 0;
+    }
+    20% {
+      margin-left: 0;
+    }
+    25% {
+      margin-left: -100%;
+    }
+    45% {
+      margin-left: -100%;
+    }
+    50% {
+      margin-left: -200%;
+    }
+    70% {
+      margin-left: -200%;
+    }
+    75% {
+      margin-left: -300%;
+    }
+    100% {
+      margin-left: -300%;
+    }
+  }
+  #footer {
+    width: 425px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
