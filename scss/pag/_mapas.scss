@@ -125,81 +125,71 @@
 @media (max-width:812px) {
     #headermap {
         padding: 20px;
+        h1 {
+            font-size: 50px;
+        }
     }
     
-    #headermap h1 {
-        font-size: 50px;
-    }
-    
-    #navmap a {
+    #navmap {
+        a {
         padding-left: 0px;
     }
-    
-    #navmap a img {
-        width: 200px;
+    img {
+        width: 150px;
     }
-    
     #navmap a img:hover {
-        width: 200px;
+        width: 150px;
     }
+}
     
     #mapas {
         padding: 5px;
+        img {
+            border: 0px solid grey;
+            margin-left: 5px;
+            width: 350px;
+            height: 230px;
+        }
+        #heaven p {
+            font-size: 14px;
+            text-align: center;
+            float: none;
+            display: block
+        
+        }
+        
+        #split p {
+            font-size: 14px;
+            text-align: center;
+            display: inline-block;
+        }
+        
+        #bind p {
+            font-size: 14px;
+            text-align: center;
+            float: none;
+            display: block
+        }
+        
+        #ascent p {
+            font-size: 14px;
+            text-align: center;
+            float: none;display: block
+        
+        }
     }
     
     
-    
-    #mapas img {
-        border: 0px solid grey;
-        margin-left: 5px;
-        width: 350px;
-        height: 230px;
-    }
-    
-   
-    
-    #heaven p {
-        font-size: 14px;
-        text-align: center;
-        float: none;
-        display: block
-    
-    }
-    
-    #split p {
-        font-size: 14px;
-        text-align: center;
-        display: inline-block;
-    }
-    
-    #bind p {
-        font-size: 14px;
-        text-align: center;
-        float: none;display: block
-    }
-    
-    #ascent p {
-        font-size: 14px;
-        text-align: center;
-        float: none;display: block
-    
-    }
     
     .agentes {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        h4 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            padding: 50px;
+        }
     }
-    
-    .agentes h4 {
-        text-align: center;
-    }
-    
-    .agentes p {
-        text-align: center;
-        padding: 50px;
-    }
-    
+
 }
-
-
-
-

@@ -186,7 +186,13 @@
 
 }
 @media (max-width:812px) {
-    #head img {
+    #head {
+        h1 {
+            color: #d20c0c;
+            text-align: center;
+            font-size: 50px;
+        }
+        img {
         display: inline;
         justify-content: center;
         flex-direction: row;
@@ -194,62 +200,23 @@
         width: 170px;
         height: 120px;
     }
-
-    #head h1 {
-        color: #d20c0c;
-        text-align: center;
-        font-size: 50px;
-    }
-    #body {
-        height: 2600px;
-    
-    }
-    #Q video {
-        height: 250px;
-        width: 300px;
-    }
-
-    #E video {
-        height: 250px;
-        width: 300px;
-    }
-
-    #C video {
-        height: 250px;
-        width: 300px;
-    }
-
-    #X video {
-        height: 250px;
-        width: 300px;
-    }
-
-    #tr iframe {
-        height: 250px;
-        width: 300px;
-    }
-
     .slider-frame {
         width: 370px;
     height: 150;
     margin: 0 0 0;
-    }
-
-    .slider-frame ul {
+    ul {
         display: flex;
         padding-left: 120px;
         animation: slide 16s infinite alternate ease-in-out;
+        li {
+            width: 50%;
+            list-style: none;
+        }
     }
-
-    .slider-frame li {
-        width: 50%;
-        list-style: none;
-    }
-
-    .slider-frame img {
+    img {
         width: 50%;
     }
-
+    }
     @keyframes slide {
         0% {
             margin-left: 0;
@@ -284,6 +251,39 @@
         }
 
     }
+}
+
+
+    #body {
+        height: 2600px;
+    
+    }
+    #Q video {
+        height: 250px;
+        width: 300px;
+    }
+
+    #E video {
+        height: 250px;
+        width: 300px;
+    }
+
+    #C video {
+        height: 250px;
+        width: 300px;
+    }
+
+    #X video {
+        height: 250px;
+        width: 300px;
+    }
+
+    #tr iframe {
+        height: 250px;
+        width: 300px;
+    }
+
+    
 
     #footer {
         width: 425px;

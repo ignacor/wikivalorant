@@ -172,6 +172,11 @@
 }
 
 @media (max-width: 812px) {
+  #head h1 {
+    color: #d20c0c;
+    text-align: center;
+    font-size: 50px;
+  }
   #head img {
     display: inline;
     justify-content: center;
@@ -180,49 +185,21 @@
     width: 170px;
     height: 120px;
   }
-  #head h1 {
-    color: #d20c0c;
-    text-align: center;
-    font-size: 50px;
-  }
-  #body {
-    height: 2600px;
-  }
-  #Q video {
-    height: 250px;
-    width: 300px;
-  }
-  #E video {
-    height: 250px;
-    width: 300px;
-  }
-  #C video {
-    height: 250px;
-    width: 300px;
-  }
-  #X video {
-    height: 250px;
-    width: 300px;
-  }
-  #tr iframe {
-    height: 250px;
-    width: 300px;
-  }
-  .slider-frame {
+  #head .slider-frame {
     width: 370px;
     height: 150;
     margin: 0 0 0;
   }
-  .slider-frame ul {
+  #head .slider-frame ul {
     display: flex;
     padding-left: 120px;
     animation: slide 16s infinite alternate ease-in-out;
   }
-  .slider-frame li {
+  #head .slider-frame ul li {
     width: 50%;
     list-style: none;
   }
-  .slider-frame img {
+  #head .slider-frame img {
     width: 50%;
   }
   @keyframes slide {
@@ -250,6 +227,29 @@
     100% {
       margin-left: -300%;
     }
+  }
+  #body {
+    height: 2600px;
+  }
+  #Q video {
+    height: 250px;
+    width: 300px;
+  }
+  #E video {
+    height: 250px;
+    width: 300px;
+  }
+  #C video {
+    height: 250px;
+    width: 300px;
+  }
+  #X video {
+    height: 250px;
+    width: 300px;
+  }
+  #tr iframe {
+    height: 250px;
+    width: 300px;
   }
   #footer {
     width: 425px;

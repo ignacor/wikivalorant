@@ -92,33 +92,35 @@
         height: 500px;
         background-color: black;
         border: 5px solid black;
+        h1 {
+            font-size: 50px;
+            padding-top: 50px;
+            letter-spacing: 20px;
+        }
+        h3 {
+            font-size: 30px;
+            padding-top: 50px;
+        }
     }
 
-    #headars h1 {
-        font-size: 50px;
-        padding-top: 50px;
-        letter-spacing: 20px;
-    }
+    
 
-    #headars h3 {
-        font-size: 30px;
-        padding-top: 50px;
-    }
+
 
     #bodarm {
         margin: 0;
         padding: 0;
+        #grid-layout {
+            grid-template-columns: auto;
+            width: 100%;
+            margin: 0;
+            padding: 0px;
+            .wrapper {
+                padding: 1px;
+            }
+        }
     }
 
-    #grid-layout {
-        grid-template-columns: auto;
-        width: 100%;
-        margin: 0;
-        padding: 0px;
-    }
 
-    .wrapper {
-        padding: 1px;
-    }
 
 }

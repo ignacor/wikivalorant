@@ -378,7 +378,9 @@
 }
 @media (max-width: 812px) 
     {
-#headag h1{
+#headag{ 
+    
+    h1{
     font-size: 50px;
     height: 120px;
 }
@@ -386,222 +388,227 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#jettag {
-    position: relative;
-    width: 70px;
-    height: 90px;
-    margin: 2px;
-}
-
-#jettag img:first-child {
-    object-fit: cover;
-    width: 70px;
-    height: 90px;
+    #jettag {
+        position: relative;
+        width: 70px;
+        height: 90px;
+        margin: 2px;
+    }
     
+    #jettag img:first-child {
+        object-fit: cover;
+        width: 70px;
+        height: 90px;
+        
+    }
+    
+    #jettag img:last-child {
+        position: relative;
+        width: 30px;
+        height: 50px;
+        bottom: 70px;
+        left: 13px;
+    
+    }
+    
+    #jettag:hover {
+        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+    }
+    
+    #jettag::before {
+        height: 30px;
+        width: 50px;
+    }
+    
+    
+    
+    #jettag:hover img:last-child {
+        transform: translatey(0%)
+    }
+    
+    
+    #kayoag {
+        position: relative;
+        width: 70px;
+        height: 90px;
+        margin: 2px;
+    }
+    
+    #kayoag img:first-child {
+        object-fit: cover;
+        width: 70px;
+        height: 90px;
+    }
+    
+    #kayoag img:last-child {
+        position: relative;
+        width: 70px;
+        height: 90px;
+        bottom: 70px;
+        left: 13px;
+    
+    }
+    
+    #kayoag:hover {
+        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+    }
+    
+    #kayoag::before {
+        height: 30px;
+        width: 50px;
+    }
+    
+    
+    
+    #kayoag:hover img:last-child {
+        transform: translatey(0%)
+    }
+    
+    
+    #viperag {
+        position: relative;
+        width: 70px;
+        height: 90px;
+        margin: 2px;
+    }
+    
+    #viperag img:first-child {
+        object-fit: cover;
+        width: 70px;
+        height: 90px;
+    }
+    
+    #viperag img:last-child {
+        position: relative;
+        width: 30px;
+        height: 50px;
+        bottom: 70px;
+        left: 13px;
+    
+    }
+    
+    #viperag:hover {
+        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+    }
+    
+    #viperag::before {
+        height: 30px;
+        width: 50px;
+    }
+    
+    
+    
+    #viperag:hover img:last-child {
+        transform: translatey(0%)
+    }
+    
+    
+    #sageag {
+        position: relative;
+        width: 70px;
+        height: 90px;
+        margin: 2px;
+    }
+    
+    #sageag img:first-child {
+        object-fit: cover;
+        width: 70px;
+        height: 90px;
+    }
+    
+    #sageag img:last-child {
+        position: relative;
+        width: 30px;
+        height: 50px;
+        bottom: 70px;
+        left: 13px;
+    
+    }
+    #sageag:hover {
+        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+    }
+    #sageag::before {
+        height: 30px;
+        width: 50px;
+    }
+    #sageag:hover img:last-child {
+        transform: translatey(0%)
+    }
+    
+    
+    #cypherag {
+        position: relative;
+        width: 70px;
+        height: 90px;
+        margin: 5px;
+    }
+    
+    #cypherag img:first-child {
+        width: 70px;
+        height: 90px;
+    }
+    
+    #cypherag img:last-child {
+        position: relative;
+        width: 30px;
+        height: 50px;
+        bottom: 70px;
+        left: 13px;
+    
+    }
+    #cypherag:hover {
+        transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
+    }
+    #cypherag::before {
+        height: 30px;
+        width: 50px;
+    }
+    #cypherag:hover img:last-child {
+        transform: translatey(0%)
+    }
+}
 }
 
-#jettag img:last-child {
-    position: relative;
-    width: 30px;
-    height: 50px;
-    bottom: 70px;
-    left: 13px;
-
 }
 
-#jettag:hover {
-    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-}
-
-#jettag::before {
-    height: 30px;
-    width: 50px;
-}
-
-
-
-#jettag:hover img:last-child {
-    transform: translatey(0%)
-}
-
-
-#kayoag {
-    position: relative;
-    width: 70px;
-    height: 90px;
-    margin: 2px;
-}
-
-#kayoag img:first-child {
-    object-fit: cover;
-    width: 70px;
-    height: 90px;
-}
-
-#kayoag img:last-child {
-    position: relative;
-    width: 70px;
-    height: 90px;
-    bottom: 70px;
-    left: 13px;
-
-}
-
-#kayoag:hover {
-    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-}
-
-#kayoag::before {
-    height: 30px;
-    width: 50px;
-}
-
-
-
-#kayoag:hover img:last-child {
-    transform: translatey(0%)
-}
-
-
-#viperag {
-    position: relative;
-    width: 70px;
-    height: 90px;
-    margin: 2px;
-}
-
-#viperag img:first-child {
-    object-fit: cover;
-    width: 70px;
-    height: 90px;
-}
-
-#viperag img:last-child {
-    position: relative;
-    width: 30px;
-    height: 50px;
-    bottom: 70px;
-    left: 13px;
-
-}
-
-#viperag:hover {
-    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-}
-
-#viperag::before {
-    height: 30px;
-    width: 50px;
-}
-
-
-
-#viperag:hover img:last-child {
-    transform: translatey(0%)
-}
-
-
-#sageag {
-    position: relative;
-    width: 70px;
-    height: 90px;
-    margin: 2px;
-}
-
-#sageag img:first-child {
-    object-fit: cover;
-    width: 70px;
-    height: 90px;
-}
-
-#sageag img:last-child {
-    position: relative;
-    width: 30px;
-    height: 50px;
-    bottom: 70px;
-    left: 13px;
-
-}
-#sageag:hover {
-    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-}
-#sageag::before {
-    height: 30px;
-    width: 50px;
-}
-#sageag:hover img:last-child {
-    transform: translatey(0%)
-}
-
-
-#cypherag {
-    position: relative;
-    width: 70px;
-    height: 90px;
-    margin: 5px;
-}
-
-#cypherag img:first-child {
-    width: 70px;
-    height: 90px;
-}
-
-#cypherag img:last-child {
-    position: relative;
-    width: 30px;
-    height: 50px;
-    bottom: 70px;
-    left: 13px;
-
-}
-#cypherag:hover {
-    transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
-}
-#cypherag::before {
-    height: 30px;
-    width: 50px;
-}
-#cypherag:hover img:last-child {
-    transform: translatey(0%)
-}
   
 #bodyag {
     background-color: rgb(15, 15, 15);
     padding-bottom: 20px;
-    height: 1300px;
+    height: 1400px;
+    #agentes{ 
+        h1 {
+        font-size: 25px;
+    }
+    article {
+    div{
+     p {
+        font-size: 15px;
+    text-align: center;
+    }
+}
+}
+}
 }
 
-#agentes h1 {
-    font-size: 25px;
-}
 
-#agentes article div p {
-    font-size: 15px;
-text-align: center;
-}
-
-
-.roles p {
+.roles {
+    h3 {
+        color: beige;
+        font-size: 15px;
+    }
+p {
     color: beige;
     font-size: 15px;
     float: right;
     text-align: center;
 
 }
-
-.roles h3 {
-    color: beige;
-    font-size: 15px;
-}
-
-.roles div img {
+img {
     border: 5px solid black;
     width: 60px;
     height: 50px;
 }
-
 #controlador p {
     padding-right: 0px;
 }
@@ -618,6 +625,7 @@ text-align: center;
     padding-right: 0px;
 }
 
-
-   
 }
+
+
+

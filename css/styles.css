@@ -146,7 +146,7 @@ footer #pag a {
   #headix a {
     font-size: 30px;
   }
-  #headix nav a:hover {
+  #headix #headix nav a:hover {
     color: rgb(191, 14, 14);
   }
   #bod {
@@ -156,10 +156,10 @@ footer #pag a {
     margin: 0;
     padding-top: 20px;
   }
-  #parche {
+  #bod #parche {
     display: block;
   }
-  #discord {
+  #bod #discord {
     display: flex;
     float: left;
     padding: 10px;
@@ -167,18 +167,13 @@ footer #pag a {
     height: 400px;
     margin-bottom: 20px;
   }
-  #discord iframe {
+  #bod #discord iframe {
     display: flex;
     float: left;
     width: 330px;
     height: 350px;
   }
-  .trucos h2 {
-    display: block;
-    font-size: 30px;
-    text-align: center;
-  }
-  .trucos {
+  #bod .trucos {
     display: block;
     margin-top: 430;
     padding-right: 0px;
@@ -186,24 +181,29 @@ footer #pag a {
     border-radius: 25px;
     margin-bottom: 2000px;
   }
-  .yt {
+  #bod .trucos h2 {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+  }
+  #bod .yt {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-right: 5px;
   }
-  .yt iframe {
+  #bod .yt iframe {
     width: 320px;
     height: 400px;
   }
-  footer {
+  #bod footer {
     background-color: black;
     text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
     width: 375px;
   }
-  footer h5 {
+  #bod footer h5 {
     color: bisque;
     text-align: center;
     padding: 5px;
@@ -217,17 +217,17 @@ footer #pag a {
     color: rgb(191, 14, 14);
     text-decoration: none;
   }
-  #social a:hover {
+  #social #social a:hover {
     background-color: rgb(15, 15, 15);
     padding: 15px;
     border: 2px solid rgb(15, 15, 15);
     border-radius: 25px;
   }
-  #pag {
+  #social #pag {
     text-align: center;
     margin-top: 30px;
   }
-  #pag a {
+  #social #pag a {
     color: bisque;
     padding: 30px;
   }
@@ -360,11 +360,11 @@ footer #pag a {
   #navmap a {
     padding-left: 0px;
   }
-  #navmap a img {
-    width: 200px;
+  #navmap img {
+    width: 150px;
   }
-  #navmap a img:hover {
-    width: 200px;
+  #navmap #navmap a img:hover {
+    width: 150px;
   }
   #mapas {
     padding: 5px;
@@ -375,24 +375,24 @@ footer #pag a {
     width: 350px;
     height: 230px;
   }
-  #heaven p {
+  #mapas #heaven p {
     font-size: 14px;
     text-align: center;
     float: none;
     display: block;
   }
-  #split p {
+  #mapas #split p {
     font-size: 14px;
     text-align: center;
     display: inline-block;
   }
-  #bind p {
+  #mapas #bind p {
     font-size: 14px;
     text-align: center;
     float: none;
     display: block;
   }
-  #ascent p {
+  #mapas #ascent p {
     font-size: 14px;
     text-align: center;
     float: none;
@@ -721,190 +721,192 @@ footer #pag a {
     font-size: 50px;
     height: 120px;
   }
-  #navag {
+  #headag #navag {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #jettag {
+  #headag #navag #jettag {
     position: relative;
     width: 70px;
     height: 90px;
     margin: 2px;
   }
-  #jettag img:first-child {
+  #headag #navag #jettag img:first-child {
     object-fit: cover;
     width: 70px;
     height: 90px;
   }
-  #jettag img:last-child {
+  #headag #navag #jettag img:last-child {
     position: relative;
     width: 30px;
     height: 50px;
     bottom: 70px;
     left: 13px;
   }
-  #jettag:hover {
+  #headag #navag #jettag:hover {
     transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
   }
-  #jettag::before {
+  #headag #navag #jettag::before {
     height: 30px;
     width: 50px;
   }
-  #jettag:hover img:last-child {
+  #headag #navag #jettag:hover img:last-child {
     transform: translatey(0%);
   }
-  #kayoag {
+  #headag #navag #kayoag {
     position: relative;
     width: 70px;
     height: 90px;
     margin: 2px;
   }
-  #kayoag img:first-child {
+  #headag #navag #kayoag img:first-child {
     object-fit: cover;
     width: 70px;
     height: 90px;
   }
-  #kayoag img:last-child {
+  #headag #navag #kayoag img:last-child {
     position: relative;
     width: 70px;
     height: 90px;
     bottom: 70px;
     left: 13px;
   }
-  #kayoag:hover {
+  #headag #navag #kayoag:hover {
     transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
   }
-  #kayoag::before {
+  #headag #navag #kayoag::before {
     height: 30px;
     width: 50px;
   }
-  #kayoag:hover img:last-child {
+  #headag #navag #kayoag:hover img:last-child {
     transform: translatey(0%);
   }
-  #viperag {
+  #headag #navag #viperag {
     position: relative;
     width: 70px;
     height: 90px;
     margin: 2px;
   }
-  #viperag img:first-child {
+  #headag #navag #viperag img:first-child {
     object-fit: cover;
     width: 70px;
     height: 90px;
   }
-  #viperag img:last-child {
+  #headag #navag #viperag img:last-child {
     position: relative;
     width: 30px;
     height: 50px;
     bottom: 70px;
     left: 13px;
   }
-  #viperag:hover {
+  #headag #navag #viperag:hover {
     transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
   }
-  #viperag::before {
+  #headag #navag #viperag::before {
     height: 30px;
     width: 50px;
   }
-  #viperag:hover img:last-child {
+  #headag #navag #viperag:hover img:last-child {
     transform: translatey(0%);
   }
-  #sageag {
+  #headag #navag #sageag {
     position: relative;
     width: 70px;
     height: 90px;
     margin: 2px;
   }
-  #sageag img:first-child {
+  #headag #navag #sageag img:first-child {
     object-fit: cover;
     width: 70px;
     height: 90px;
   }
-  #sageag img:last-child {
+  #headag #navag #sageag img:last-child {
     position: relative;
     width: 30px;
     height: 50px;
     bottom: 70px;
     left: 13px;
   }
-  #sageag:hover {
+  #headag #navag #sageag:hover {
     transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
   }
-  #sageag::before {
+  #headag #navag #sageag::before {
     height: 30px;
     width: 50px;
   }
-  #sageag:hover img:last-child {
+  #headag #navag #sageag:hover img:last-child {
     transform: translatey(0%);
   }
-  #cypherag {
+  #headag #navag #cypherag {
     position: relative;
     width: 70px;
     height: 90px;
     margin: 5px;
   }
-  #cypherag img:first-child {
+  #headag #navag #cypherag img:first-child {
     width: 70px;
     height: 90px;
   }
-  #cypherag img:last-child {
+  #headag #navag #cypherag img:last-child {
     position: relative;
     width: 30px;
     height: 50px;
     bottom: 70px;
     left: 13px;
   }
-  #cypherag:hover {
+  #headag #navag #cypherag:hover {
     transform: perspective(0px) rotateX(0deg) translateY(0%) translateZ(0);
   }
-  #cypherag::before {
+  #headag #navag #cypherag::before {
     height: 30px;
     width: 50px;
   }
-  #cypherag:hover img:last-child {
+  #headag #navag #cypherag:hover img:last-child {
     transform: translatey(0%);
   }
-  #bodyag {
-    background-color: rgb(15, 15, 15);
-    padding-bottom: 20px;
-    height: 1300px;
-  }
-  #agentes h1 {
-    font-size: 25px;
-  }
-  #agentes article div p {
-    font-size: 15px;
-    text-align: center;
-  }
-  .roles p {
-    color: beige;
-    font-size: 15px;
-    float: right;
-    text-align: center;
-  }
-  .roles h3 {
-    color: beige;
-    font-size: 15px;
-  }
-  .roles div img {
-    border: 5px solid black;
-    width: 60px;
-    height: 50px;
-  }
-  #controlador p {
-    padding-right: 0px;
-  }
-  #duelista p {
-    padding-right: 0px;
-  }
-  #sentinela p {
-    padding-right: 0px;
-  }
-  #iniciador p {
-    padding-right: 0px;
-  }
 }
+#bodyag {
+  background-color: rgb(15, 15, 15);
+  padding-bottom: 20px;
+  height: 1400px;
+}
+#bodyag #agentes h1 {
+  font-size: 25px;
+}
+#bodyag #agentes article div p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.roles h3 {
+  color: beige;
+  font-size: 15px;
+}
+.roles p {
+  color: beige;
+  font-size: 15px;
+  float: right;
+  text-align: center;
+}
+.roles img {
+  border: 5px solid black;
+  width: 60px;
+  height: 50px;
+}
+.roles #controlador p {
+  padding-right: 0px;
+}
+.roles #duelista p {
+  padding-right: 0px;
+}
+.roles #sentinela p {
+  padding-right: 0px;
+}
+.roles #iniciador p {
+  padding-right: 0px;
+}
+
 #headars {
   height: 700px;
   background-color: black;
@@ -1004,13 +1006,13 @@ footer #pag a {
     margin: 0;
     padding: 0;
   }
-  #grid-layout {
+  #bodarm #grid-layout {
     grid-template-columns: auto;
     width: 100%;
     margin: 0;
     padding: 0px;
   }
-  .wrapper {
+  #bodarm #grid-layout .wrapper {
     padding: 1px;
   }
 }
@@ -1319,6 +1321,11 @@ footer #pag a {
 }
 
 @media (max-width: 812px) {
+  #head h1 {
+    color: #d20c0c;
+    text-align: center;
+    font-size: 50px;
+  }
   #head img {
     display: inline;
     justify-content: center;
@@ -1327,49 +1334,21 @@ footer #pag a {
     width: 170px;
     height: 120px;
   }
-  #head h1 {
-    color: #d20c0c;
-    text-align: center;
-    font-size: 50px;
-  }
-  #body {
-    height: 2600px;
-  }
-  #Q video {
-    height: 250px;
-    width: 300px;
-  }
-  #E video {
-    height: 250px;
-    width: 300px;
-  }
-  #C video {
-    height: 250px;
-    width: 300px;
-  }
-  #X video {
-    height: 250px;
-    width: 300px;
-  }
-  #tr iframe {
-    height: 250px;
-    width: 300px;
-  }
-  .slider-frame {
+  #head .slider-frame {
     width: 370px;
     height: 150;
     margin: 0 0 0;
   }
-  .slider-frame ul {
+  #head .slider-frame ul {
     display: flex;
     padding-left: 120px;
     animation: slide 16s infinite alternate ease-in-out;
   }
-  .slider-frame li {
+  #head .slider-frame ul li {
     width: 50%;
     list-style: none;
   }
-  .slider-frame img {
+  #head .slider-frame img {
     width: 50%;
   }
   @keyframes slide {
@@ -1397,6 +1376,29 @@ footer #pag a {
     100% {
       margin-left: -300%;
     }
+  }
+  #body {
+    height: 2600px;
+  }
+  #Q video {
+    height: 250px;
+    width: 300px;
+  }
+  #E video {
+    height: 250px;
+    width: 300px;
+  }
+  #C video {
+    height: 250px;
+    width: 300px;
+  }
+  #X video {
+    height: 250px;
+    width: 300px;
+  }
+  #tr iframe {
+    height: 250px;
+    width: 300px;
   }
   #footer {
     width: 425px;
