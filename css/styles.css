@@ -702,7 +702,6 @@ footer #pag a {
   background-color: black;
   margin: 1px;
 }
-
 .roles #controlador p {
   padding-right: 230px;
 }
@@ -865,48 +864,46 @@ footer #pag a {
   #headag #navag #cypherag:hover img:last-child {
     transform: translatey(0%);
   }
+  #bodyag {
+    background-color: rgb(15, 15, 15);
+    padding-bottom: 20px;
+    height: 1400px;
+  }
+  #bodyag #agentes h1 {
+    font-size: 25px;
+  }
+  #bodyag #agentes article div p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .roles h3 {
+    color: beige;
+    font-size: 15px;
+  }
+  .roles p {
+    color: beige;
+    font-size: 15px;
+    float: right;
+    text-align: center;
+  }
+  .roles img {
+    border: 5px solid black;
+    width: 60px;
+    height: 50px;
+  }
+  .roles #controlador p {
+    padding-right: 0px;
+  }
+  .roles #duelista p {
+    padding-right: 0px;
+  }
+  .roles #sentinela p {
+    padding-right: 0px;
+  }
+  .roles #iniciador p {
+    padding-right: 0px;
+  }
 }
-#bodyag {
-  background-color: rgb(15, 15, 15);
-  padding-bottom: 20px;
-  height: 1400px;
-}
-#bodyag #agentes h1 {
-  font-size: 25px;
-}
-#bodyag #agentes article div p {
-  font-size: 15px;
-  text-align: center;
-}
-
-.roles h3 {
-  color: beige;
-  font-size: 15px;
-}
-.roles p {
-  color: beige;
-  font-size: 15px;
-  float: right;
-  text-align: center;
-}
-.roles img {
-  border: 5px solid black;
-  width: 60px;
-  height: 50px;
-}
-.roles #controlador p {
-  padding-right: 0px;
-}
-.roles #duelista p {
-  padding-right: 0px;
-}
-.roles #sentinela p {
-  padding-right: 0px;
-}
-.roles #iniciador p {
-  padding-right: 0px;
-}
-
 #headars {
   height: 700px;
   background-color: black;
