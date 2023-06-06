@@ -1,7 +1,7 @@
 #head {
-    background-color: black;
+    background-color:$color-fondo;
     h1 {
-        color: #d20c0c;
+        color: $color-h1;
         text-align: center;
         font-size: 100px;
         font-family: 'valorant font';
@@ -72,19 +72,21 @@
 
 
 #body {
-    color: beige;
-    background-color: rgb(15, 15, 15);
+    color: $color-h2;
+    background-color: $color-fondo;
     text-align: center;
     padding-top: 20px;
     height: 2400px;
     #bio {
-        background-color: black;
+        background-color: $color-cajas;
         border: 2px solid black;
         border-radius: 25px;
         h2 {
+            color: $color-h2;
             font-family: 'valorant font';
         }
         p{
+            color: $color-p;
             font-size: 20px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             padding: 15px;
@@ -92,41 +94,48 @@
         
     }
     #rol {
-        background-color: black;
+        background-color: $color-cajas;
         border: 2px solid black;
         border-radius: 25px;
         margin-top: 20px;
         h2 {
+            color: $color-h2;
             font-family: 'valorant font';
         }
         p{
+            color: $color-p;
             font-size: 20px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             padding: 15px;
         }
     }
     #hab {
-        background-color: black;
+        background-color: $color-cajas;
         border: 2px solid black;
         border-radius: 25px;
         margin-top: 20px;
         h2 {
+            color: $color-h2;
         font-family: 'valorant font';
         }
         p{
+            color: $color-p;
             font-size: 20px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             padding: 15px;
         }
     }
     #Q {
+        background-color: $color-cajas;
         border: 2px solid rgb(15, 15, 15);
         border-radius: 25px;
         margin: 10px;
         h3 {
+            color: $color-h3;
             font-family: 'valorant font';
         }
         p{
+            color: $color-p;
             font-size: 20px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             padding: 15px;
@@ -134,52 +143,61 @@
         }
     }
     #E {
+        background-color: $color-cajas;
         border: 2px solid rgb(15, 15, 15);
         border-radius: 25px;
         margin: 10px;
         h3 {
+            color: $color-h3;
             font-family: 'valorant font';
         }
         p{
+            color: $color-p;
             font-size: 20px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             padding: 15px;
         }
     }
     #C {
-
+        background-color: $color-cajas;
         border: 2px solid rgb(15, 15, 15);
         border-radius: 25px;
         margin: 10px;
         h3 {
+            color: $color-h3;
             font-family: 'valorant font';
         
         }
         p{
+            color: $color-p;
             font-size: 20px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             padding: 15px;
         }
     }
     #X {
+        background-color: $color-cajas;
         border: 2px solid rgb(15, 15, 15);
         border-radius: 25px;
         margin: 10px;
         h3 {
+            color: $color-h3;
             font-family: 'valorant font';
         }
         p{
+            color: $color-p;
             font-size: 20px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             padding: 15px;
         }
     }   
      #tr {
-        background-color: black;
+        background-color: $color-cajas;
         border: 2px solid black;
         border-radius: 25px;
         margin-top: 20px;
         h2 {
+            color: $color-h2;
             font-family: 'valorant font';
         }
     }
@@ -188,7 +206,6 @@
 @media (max-width:812px) {
     #head {
         h1 {
-            color: #d20c0c;
             text-align: center;
             font-size: 50px;
         }

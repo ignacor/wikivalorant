@@ -1,8 +1,8 @@
 #headermap {
-    background-color: black;
+    background-color: $color-cajas;
     padding: 190px;
     h1{
-        color: #d20c0c;
+        color: $color-h1;
         font-family: 'valorant font';
         font-size: 100px;
         display: flex;
@@ -37,11 +37,11 @@
 }
 
 #mapas {
-    background-color: rgb(15, 15, 15);
+    background-color: $color-fondo;
     padding: 10px;
     font-family: 'Machine Font';
     h2 {
-        color: white;
+        color: $color-h2;
         font-family: 'Empire Font';
         display: flex;
         justify-content: center;
@@ -55,7 +55,7 @@
         margin-left: 10px;
     }
     #heaven {
-        background-color: black;
+        background-color: $color-cajas;
         border: 2px solid black;
         border-radius: 25px;
         margin-bottom: 10px;
@@ -69,13 +69,13 @@
         }
     }
     #split {
-        background-color: black;
+        background-color: $color-cajas;
         border: 2px solid black;
         border-radius: 25px;
         margin-bottom: 10px;
         p {
     float: right;
-    color: white;
+    color: $color-p;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-right: 105px;
@@ -83,27 +83,27 @@
     }
     
     #bind {
-        background-color: black;
+        background-color: $color-cajas;
         border: 2px solid black;
         border-radius: 25px;
         margin-bottom: 10px;
         p {
             float: right;
             font-size: 18px;
-            color: white;
+            color: $color-p;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             padding-right: 45px;
         }
     }
     
     #ascent {
-        background-color: black;
+        background-color: $color-cajas;
         border: 2px solid black;
         border-radius: 25px;
         margin-bottom: 10px;
         p {
             float: right;
-            color: white;
+            color: $color-p;
             font-size: 18px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         
@@ -113,10 +113,10 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         h4 {
             text-align: center;
-            color: white;
+            color: $color-h3;
         }
        ul{
-        color: white;
+        color: $color-h3;
         padding: 50px;
        }
     
@@ -128,18 +128,20 @@
         h1 {
             font-size: 50px;
         }
+        #navmap {
+            a {
+            padding-left: 0px;
+        }
+        a {
+           img{ height: 180px;
+            width: 100%;}
+        }
+        #navmap a img:hover {
+            width: 150px;
+        }
     }
     
-    #navmap {
-        a {
-        padding-left: 0px;
-    }
-    img {
-        width: 150px;
-    }
-    #navmap a img:hover {
-        width: 150px;
-    }
+   
 }
     
     #mapas {
